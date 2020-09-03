@@ -1,17 +1,25 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<template >
+  <div id="app" class="bg-blue-500 w-full" >
+    <div class="grid grid-cols-12">
+        <div class="border-solid border-4 border-green-400 col-span-6 xl:col-span-2">
+          <div>Name: 'dd'</div>
+          <div>color: 'red'</div>
+        </div>
+        <div class="border-double border-4 border-red-300">bb</div>
+        <div class="border-double border-4 border-red-300">bb</div>
+        <div class="border-double border-4 border-red-300">bb</div>
+        <div class="border-double border-4 border-red-300">bb</div>
+        <div class="border-double border-4 border-red-300">bb</div>
+        <div class="border-double border-4 border-red-300">bb</div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
   }
 }
 </script>
